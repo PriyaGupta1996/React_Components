@@ -1,6 +1,7 @@
 import React from "react"
 import UseMemo from "./components/UseMemo"
 import { SimpleComponent,HigherOrderComponent } from "./components/HigherOrderComponent"
+import { UseRefComponent } from "./components/UseRef"
 
 const App=()=>{
 
@@ -10,8 +11,9 @@ const App=()=>{
     return(
         <div>
             {/* <UseMemo/> */}
-           <SimpleComponent content="Hi I am Priya"/>
-           <EnhancedComponent content="Hi I am enhanced Priya"/>
+           {/* <SimpleComponent content="Hi I am Priya"/>
+           <EnhancedComponent content="Hi I am enhanced Priya"/> */}
+           <UseRefComponent/>
         </div>
        
     )
